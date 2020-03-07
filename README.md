@@ -1,3 +1,3 @@
-# node-get-random-bytes
+# node-get-random-values
 
-`crypto.getRandomBytes` polyfill for node.
+`crypto.getRandomValues` polyfill for node.

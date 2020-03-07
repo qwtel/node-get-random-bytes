@@ -1,7 +1,7 @@
 {
   "name": "get-random-values",
   "version": "0.1.0",
-  "description": "crypto.getRandomBytes polyfill for node",
+  "description": "crypto.getRandomValues polyfill for node",
   "main": "polyfill.cjs",
   "module": "polyfill.js",
   "type": "module",
