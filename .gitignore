@@ -1,0 +1,9 @@
+node_modules
+.vscode
+play.js
+play.html
+webpack
+playground
+*.tgz
+*.cjs
+*.log
