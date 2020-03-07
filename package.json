@@ -1,5 +1,5 @@
 {
-  "name": "get-random-bytes",
+  "name": "node-get-random-bytes",
   "version": "0.1.0",
   "description": "",
   "main": "index.cjs",
@@ -10,6 +10,10 @@
     "*.cjs"
   ],
   "exports": {
+    "./phonyfill": {
+      "import": "./phonyfill.js",
+      "require": "./phonyfill.cjs"
+    },
     ".": {
       "import": "./index.js",
       "require": "./index.cjs"
