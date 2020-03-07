@@ -1,5 +1,5 @@
 {
-  "name": "get-random-values",
+  "name": "node-get-random-values",
   "version": "0.1.0",
   "description": "crypto.getRandomValues polyfill for node",
   "main": "polyfill.cjs",
