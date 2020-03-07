@@ -1,9 +1,9 @@
 {
   "name": "get-random-values",
   "version": "0.1.0",
-  "description": "`crypto.getRandomBytes` polyfill for node.",
-  "main": "index.cjs",
-  "module": "index.js",
+  "description": "crypto.getRandomBytes polyfill for node",
+  "main": "polyfill.cjs",
+  "module": "polyfill.js",
   "type": "module",
   "files": [
     "*.js",
@@ -14,13 +14,17 @@
       "import": "./phonyfill.js",
       "require": "./phonyfill.cjs"
     },
+    "./polyfill": {
+      "import": "./polyfill.js",
+      "require": "./polyfill.cjs"
+    },
     ".": {
-      "import": "./index.js",
-      "require": "./index.cjs"
+      "import": "./polyfill.js",
+      "require": "./polyfill.cjs"
     }
   },
   "scripts": {
-    "build": "node scripts/build.js index.js phonyfill.js",
+    "build": "node scripts/build.js polyfill.js phonyfill.js",
     "prepack": "npm run build"
   },
   "keywords": [
