@@ -1,7 +1,7 @@
 {
-  "name": "node-get-random-bytes",
+  "name": "get-random-values",
   "version": "0.1.0",
-  "description": "",
+  "description": "`crypto.getRandomBytes` polyfill for node.",
   "main": "index.cjs",
   "module": "index.js",
   "type": "module",
@@ -37,10 +37,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qwtel/node-get-random-bytes.git"
+    "url": "git+https://github.com/qwtel/node-get-random-values.git"
   },
   "bugs": {
-    "url": "https://github.com/qwtel/node-get-random-bytes/issues"
+    "url": "https://github.com/qwtel/node-get-random-values/issues"
   },
-  "homepage": "https://github.com/qwtel/node-get-random-bytes#readme"
+  "homepage": "https://github.com/qwtel/node-get-random-values#readme"
 }
